@@ -251,7 +251,7 @@ public class TestBowlingScoreCalculator {
 		bowlinggame.addFrame(frame10);
 		bowlinggame.addFrame(frame11);
 		
-		assertEquals(92, bowlinggame.score());
+		assertEquals(93, bowlinggame.score());
 	}
 	
 	@Test
