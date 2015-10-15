@@ -120,3 +120,4 @@ RefactoringAction 1444903952938 TestBowlingScoreCalculator.java ADD void testIfT
 RefactoringAction 1444903961030 TestBowlingScoreCalculator.java RENAME testIfTwoSpareInARowScoreisCalculatedCorrectly()/2=>void testIfLScoreisCalculatedCorrectly() METHOD
 RefactoringAction 1444903965564 TestBowlingScoreCalculator.java RENAME testIfLScoreisCalculatedCorrectly()=>void testIfLastFrameIsSpareScoreisCalculatedCorrectly() METHOD
 EditAction 1444903997907 BowlingGame.java 1793 6 3 0
+EditAction 1444903997987 TestBowlingScoreCalculator.java 7015 9 157 8

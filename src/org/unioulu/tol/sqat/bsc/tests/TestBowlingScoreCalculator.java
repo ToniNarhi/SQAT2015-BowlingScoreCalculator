@@ -193,6 +193,36 @@ public class TestBowlingScoreCalculator {
 		assertEquals(98, bowlinggame.score());
 	}
 	
+	@Test
+	public void testIfLastFrameIsSpareScoreisCalculatedCorrectly() {
+		Frame frame1 = new Frame(1,5); //10
+		Frame frame2 = new Frame(3,6); //10
+		Frame frame3 = new Frame(7,2); //9
+		Frame frame4 = new Frame(3,6); // 9
+		Frame frame5 = new Frame(4,4); //8
+		Frame frame6 = new Frame(5,3); // 8
+		Frame frame7 = new Frame(3,3); //6
+		Frame frame8 = new Frame(4,5); // 9
+		Frame frame9 = new Frame(8,1); //9
+		Frame frame10 = new Frame(2,8); //8
+										//85
+										//+next throw
+										//=98
+		BowlingGame bowlinggame = new BowlingGame();
+		bowlinggame.addFrame(frame1);
+		bowlinggame.addFrame(frame2);
+		bowlinggame.addFrame(frame3);
+		bowlinggame.addFrame(frame4);
+		bowlinggame.addFrame(frame5);
+		bowlinggame.addFrame(frame6);
+		bowlinggame.addFrame(frame7);
+		bowlinggame.addFrame(frame8);
+		bowlinggame.addFrame(frame9);
+		bowlinggame.addFrame(frame10);
+		
+		assertEquals(90, bowlinggame.score());
+	}
+	
 	
 	
 }
