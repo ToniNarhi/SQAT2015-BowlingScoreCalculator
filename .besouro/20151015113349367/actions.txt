@@ -37,3 +37,6 @@ RefactoringAction 1444900692909 TestBowlingScoreCalculator.java RENAME testIfGam
 RefactoringAction 1444900697435 TestBowlingScoreCalculator.java RENAME testIfGame()=>void testIfGameScoreIsCorrect() METHOD
 EditAction 1444900845399 BowlingGame.java 745 6 6 0
 EditAction 1444900845490 TestBowlingScoreCalculator.java 2275 4 47 3
+UnitTestCaseAction 1444900845811 TestBowlingScoreCalculator.java FAIL
+UnitTestSessionAction 1444900845812 TestBowlingScoreCalculator FAIL
+EditAction 1444900949166 TestBowlingScoreCalculator.java 2272 4 47 3

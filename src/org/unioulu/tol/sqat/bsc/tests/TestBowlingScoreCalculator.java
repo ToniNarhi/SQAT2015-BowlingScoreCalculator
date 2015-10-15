@@ -58,7 +58,7 @@ public class TestBowlingScoreCalculator {
 		Frame frame8 = new Frame(4,5); // 9
 		Frame frame9 = new Frame(8,1); //9
 		Frame frame10 = new Frame(2,6); //8
-										//15,24,31,39,37,45,51,60,69,78
+										//15,24,33,41,49,55,64,73,81
 		BowlingGame bowlinggame = new BowlingGame();
 		bowlinggame.addFrame(frame1);
 		bowlinggame.addFrame(frame2);
@@ -71,7 +71,7 @@ public class TestBowlingScoreCalculator {
 		bowlinggame.addFrame(frame9);
 		bowlinggame.addFrame(frame10);
 		
-		assertEquals(78, bowlinggame.score());
+		assertEquals(81, bowlinggame.score());
 	}
 
 }
