@@ -47,3 +47,6 @@ RefactoringAction 1444901475006 TestBowlingScoreCalculator.java RENAME testIfGam
 EditAction 1444901528857 Frame.java 919 6 10 0
 EditAction 1444901528938 BowlingGame.java 886 6 6 0
 EditAction 1444901529027 TestBowlingScoreCalculator.java 3168 5 69 4
+UnitTestCaseAction 1444901529337 TestBowlingScoreCalculator.java FAIL
+UnitTestSessionAction 1444901529338 TestBowlingScoreCalculator FAIL
+EditAction 1444901578297 TestBowlingScoreCalculator.java 3210 5 69 4

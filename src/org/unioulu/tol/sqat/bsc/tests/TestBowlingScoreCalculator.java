@@ -87,6 +87,8 @@ public class TestBowlingScoreCalculator {
 		Frame frame9 = new Frame(8,1); //9
 		Frame frame10 = new Frame(2,6); //8
 										//85
+										//+next Frame
+										//=94
 		BowlingGame bowlinggame = new BowlingGame();
 		bowlinggame.addFrame(frame1);
 		bowlinggame.addFrame(frame2);
@@ -99,6 +101,6 @@ public class TestBowlingScoreCalculator {
 		bowlinggame.addFrame(frame9);
 		bowlinggame.addFrame(frame10);
 		
-		assertEquals(85, bowlinggame.score());
+		assertEquals(94, bowlinggame.score());
 	}
 }
