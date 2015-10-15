@@ -50,6 +50,13 @@ public class BowlingGame {
 
 				}
 			}
+			if(frames.get(i).isStrike() == true && i == frames.size())
+			{
+				Frame framebonus = new Frame (7,2);
+				addFrame(framebonus);
+				TotalScore += frames.get(i+1).score();
+				i = frames.size();
+			}
 			else if(frames.get(i).isSpare() == true)
 			{
 				if(i+1 < frames.size())
