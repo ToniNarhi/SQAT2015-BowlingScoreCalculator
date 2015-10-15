@@ -249,6 +249,7 @@ public class TestBowlingScoreCalculator {
 		bowlinggame.addFrame(frame8);
 		bowlinggame.addFrame(frame9);
 		bowlinggame.addFrame(frame10);
+		bowlinggame.addFrame(frame11);
 		
 		assertEquals(92, bowlinggame.score());
 	}
