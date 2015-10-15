@@ -50,7 +50,7 @@ public class BowlingGame {
 
 				}
 			}
-			if(frames.get(i).isStrike() == true)
+			/*if(frames.get(i).isStrike() == true)
 			{
 				if(i+1 >= frames.size())
 				{
@@ -60,7 +60,7 @@ public class BowlingGame {
 				i = frames.size();
 				}
 			}
-			else if(frames.get(i).isSpare() == true)
+			else */if(frames.get(i).isSpare() == true)
 			{
 				if(i+1 < frames.size())
 				{
