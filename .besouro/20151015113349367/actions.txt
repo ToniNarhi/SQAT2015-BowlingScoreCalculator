@@ -45,3 +45,4 @@ UnitTestSessionAction 1444900949454 TestBowlingScoreCalculator OK
 RefactoringAction 1444901455974 TestBowlingScoreCalculator.java ADD void testIfGameScoreIsCorrect()/2 METHOD
 RefactoringAction 1444901475006 TestBowlingScoreCalculator.java RENAME testIfGameScoreIsCorrect()/2=>void testIfStrikeScoreisCalculatedCorrectly() METHOD
 EditAction 1444901528857 Frame.java 919 6 10 0
+EditAction 1444901528938 BowlingGame.java 886 6 6 0

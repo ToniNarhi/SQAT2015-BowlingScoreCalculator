@@ -23,13 +23,20 @@ public class BowlingGame {
 		for(int i = 0; i < frames.size(); i++)
 		{
 		TotalScore += frames.get(i).score();
+			if(frames.get(i).isStrike() == true)
+			{
+				if(i+1 <= frames.size())
+				{
+					TotalScore += frames.get(i+1).score();
+				}
+			}
 		}
 		return TotalScore;
 	}
 	
 	public boolean isNextFrameBonus(){
 		//to be implemented
-		return false;
+		return true;
 	}
 	
 	public List<Frame> Getframes()
