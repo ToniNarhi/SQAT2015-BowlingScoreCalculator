@@ -33,7 +33,7 @@ public class BowlingGame {
 						int temp = 0;
 						for(int x = i+2; x < frames.size() && frames.get(x).isStrike() == true; x++)
 						{
-							TotalScore += frames.get(i+1).GetFirstThrow();
+							TotalScore += frames.get(x+1).GetFirstThrow();
 							temp = x;
 						}
 						System.out.println(temp);
@@ -69,10 +69,4 @@ public class BowlingGame {
 	{
 		return frames;
 	}
-}
-
-if(x = Strike)
-{
-	if( x+1 Strike)
-}
 }
