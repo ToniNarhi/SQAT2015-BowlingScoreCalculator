@@ -40,3 +40,8 @@ EditAction 1444900845490 TestBowlingScoreCalculator.java 2275 4 47 3
 UnitTestCaseAction 1444900845811 TestBowlingScoreCalculator.java FAIL
 UnitTestSessionAction 1444900845812 TestBowlingScoreCalculator FAIL
 EditAction 1444900949166 TestBowlingScoreCalculator.java 2272 4 47 3
+UnitTestCaseAction 1444900949454 TestBowlingScoreCalculator.java OK
+UnitTestSessionAction 1444900949454 TestBowlingScoreCalculator OK
+RefactoringAction 1444901455974 TestBowlingScoreCalculator.java ADD void testIfGameScoreIsCorrect()/2 METHOD
+RefactoringAction 1444901475006 TestBowlingScoreCalculator.java RENAME testIfGameScoreIsCorrect()/2=>void testIfStrikeScoreisCalculatedCorrectly() METHOD
+EditAction 1444901528857 Frame.java 919 6 10 0
