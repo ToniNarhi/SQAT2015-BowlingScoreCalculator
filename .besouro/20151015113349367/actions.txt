@@ -30,3 +30,9 @@ RefactoringAction 1444900343694 BowlingGame.java ADD Frame Get FIELD
 RefactoringAction 1444900346711 BowlingGame.java RENAME Get=>Frame Getframes FIELD
 RefactoringAction 1444900352727 BowlingGame.java RENAME Getframes=>Frame Getframes() METHOD
 EditAction 1444900433706 BowlingGame.java 644 6 4 0
+UnitTestCaseAction 1444900434018 TestBowlingScoreCalculator.java OK
+UnitTestSessionAction 1444900434019 TestBowlingScoreCalculator OK
+RefactoringAction 1444900682386 TestBowlingScoreCalculator.java ADD void testIfGameHas10Frames()/2 METHOD
+RefactoringAction 1444900692909 TestBowlingScoreCalculator.java RENAME testIfGameHas10Frames()/2=>void testIfGame() METHOD
+RefactoringAction 1444900697435 TestBowlingScoreCalculator.java RENAME testIfGame()=>void testIfGameScoreIsCorrect() METHOD
+EditAction 1444900845399 BowlingGame.java 745 6 6 0
