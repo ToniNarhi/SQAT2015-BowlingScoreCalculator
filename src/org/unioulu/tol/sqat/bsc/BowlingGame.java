@@ -30,7 +30,7 @@ public class BowlingGame {
 					if(frames.get(i+1).isStrike() == true)
 					{
 						TotalScore += frames.get(i+1).score();
-						for(int x = i+2; x < frames.size(); x++)
+						for(int x = i+2; x < frames.size() && frames.get(x).isStrike() == true; x++)
 						{
 							TotalScore += frames.get(i+1).GetFirstThrow();
 						}
