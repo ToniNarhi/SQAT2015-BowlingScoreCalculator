@@ -30,6 +30,13 @@ public class BowlingGame {
 					TotalScore += frames.get(i+1).score();
 				}
 			}
+			else if(frames.get(i).isSpare() == true)
+			{
+				if(i+1 <= frames.size())
+				{
+					TotalScore += frames.get(i+1).GetFirstThrow();
+				}
+			}
 		}
 		return TotalScore;
 	}

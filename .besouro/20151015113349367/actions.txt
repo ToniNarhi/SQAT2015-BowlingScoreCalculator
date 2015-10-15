@@ -61,3 +61,4 @@ RefactoringAction 1444901958175 Frame.java RENAME GetFirstThrow=>int GetFirstThr
 RefactoringAction 1444902004385 TestBowlingScoreCalculator.java ADD void testIfStrikeScoreisCalculatedCorrectly()/2 METHOD
 RefactoringAction 1444902014918 TestBowlingScoreCalculator.java RENAME testIfStrikeScoreisCalculatedCorrectly()/2=>void testIfSpareScoreisCalculatedCorrectly() METHOD
 EditAction 1444902077140 Frame.java 1091 7 12 0
+EditAction 1444902077225 BowlingGame.java 1040 6 6 0
