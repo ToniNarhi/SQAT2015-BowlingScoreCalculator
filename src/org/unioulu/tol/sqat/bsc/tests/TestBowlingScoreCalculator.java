@@ -204,7 +204,7 @@ public class TestBowlingScoreCalculator {
 		Frame frame7 = new Frame(3,3); //6
 		Frame frame8 = new Frame(4,5); // 9
 		Frame frame9 = new Frame(8,1); //9
-		Frame frame10 = new Frame(2,8); //8
+		Frame frame10 = new Frame(1,8); //8
 										//85
 										//+next throw
 										//=98
