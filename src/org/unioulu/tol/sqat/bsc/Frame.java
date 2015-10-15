@@ -3,6 +3,7 @@ package org.unioulu.tol.sqat.bsc;
 public class Frame {
 	private int firstThrow;
 	private int secondThrow;
+	private int result;
 	
 	public Frame(int firstThrow, int secondThrow){
 		this.firstThrow = firstThrow;
@@ -11,10 +12,14 @@ public class Frame {
 	
 	//the score of a single frame
 	public int score(){
-		int result = firstThrow + secondThrow;
+		result = firstThrow + secondThrow;
 		if(firstThrow == 10)
 		{
 			isStrike();
+		}
+		else if(result == 10)
+		{
+			isSpare();
 		}
 		//to be implemented
 		return result;
@@ -31,7 +36,10 @@ public class Frame {
 	
 	//return whether a frame is a spare or not
 	public boolean isSpare(){
-		//to be implemented
+		if(result == 10 && firstThrow != 10)
+		{
+			return true;
+		}
 		return false;
 	}
 
@@ -40,7 +48,11 @@ public class Frame {
 		//to be implemented
 		return false;
 	}
-
+	
+	public int GetFirstThrow()
+	{
+		return firstThrow;
+	}
 	//bonus throws
 	public int bonus(){
 		//to be implemented

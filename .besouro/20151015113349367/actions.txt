@@ -50,3 +50,14 @@ EditAction 1444901529027 TestBowlingScoreCalculator.java 3168 5 69 4
 UnitTestCaseAction 1444901529337 TestBowlingScoreCalculator.java FAIL
 UnitTestSessionAction 1444901529338 TestBowlingScoreCalculator FAIL
 EditAction 1444901578297 TestBowlingScoreCalculator.java 3210 5 69 4
+UnitTestCaseAction 1444901578599 TestBowlingScoreCalculator.java OK
+UnitTestSessionAction 1444901578600 TestBowlingScoreCalculator OK
+RefactoringAction 1444901828526 Frame.java ADD int rsult FIELD
+RefactoringAction 1444901831541 Frame.java RENAME rsult=>int result FIELD
+RefactoringAction 1444901950636 Frame.java ADD int Get FIELD
+RefactoringAction 1444901954649 Frame.java RENAME Get=>int GetFirstTh FIELD
+RefactoringAction 1444901956662 Frame.java RENAME GetFirstTh=>int GetFirstThrow FIELD
+RefactoringAction 1444901958175 Frame.java RENAME GetFirstThrow=>int GetFirstThrow() METHOD
+RefactoringAction 1444902004385 TestBowlingScoreCalculator.java ADD void testIfStrikeScoreisCalculatedCorrectly()/2 METHOD
+RefactoringAction 1444902014918 TestBowlingScoreCalculator.java RENAME testIfStrikeScoreisCalculatedCorrectly()/2=>void testIfSpareScoreisCalculatedCorrectly() METHOD
+EditAction 1444902077140 Frame.java 1091 7 12 0
