@@ -253,6 +253,36 @@ public class TestBowlingScoreCalculator {
 		
 		assertEquals(93, bowlinggame.score());
 	}
+	@Test
+	public void testIfBestScoreScoreisCalculatedCorrectly() {
+		Frame frame1 = new Frame(10,0); //10
+		Frame frame2 = new Frame(10,0); //10
+		Frame frame3 = new Frame(10,0); //9
+		Frame frame4 = new Frame(10,0); // 9
+		Frame frame5 = new Frame(10,0); //8
+		Frame frame6 = new Frame(10,0); // 8
+		Frame frame7 = new Frame(10,0); //6
+		Frame frame8 = new Frame(10,0); // 9
+		Frame frame9 = new Frame(10,0); //9
+		Frame frame10 = new Frame(10,0); //8
+		Frame frame11 = new Frame(10,0);								//85
+										//+next throw
+										//=92
+		BowlingGame bowlinggame = new BowlingGame();
+		bowlinggame.addFrame(frame1);
+		bowlinggame.addFrame(frame2);
+		bowlinggame.addFrame(frame3);
+		bowlinggame.addFrame(frame4);
+		bowlinggame.addFrame(frame5);
+		bowlinggame.addFrame(frame6);
+		bowlinggame.addFrame(frame7);
+		bowlinggame.addFrame(frame8);
+		bowlinggame.addFrame(frame9);
+		bowlinggame.addFrame(frame10);
+		bowlinggame.addFrame(frame11);
+		
+		assertEquals(93, bowlinggame.score());
+	}
 	
 	@Test
 	public void testIfBonusIsStrikeScoreisCalculatedCorrectly() {
