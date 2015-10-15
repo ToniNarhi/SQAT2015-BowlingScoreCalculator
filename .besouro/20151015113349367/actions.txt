@@ -36,3 +36,4 @@ RefactoringAction 1444900682386 TestBowlingScoreCalculator.java ADD void testIfG
 RefactoringAction 1444900692909 TestBowlingScoreCalculator.java RENAME testIfGameHas10Frames()/2=>void testIfGame() METHOD
 RefactoringAction 1444900697435 TestBowlingScoreCalculator.java RENAME testIfGame()=>void testIfGameScoreIsCorrect() METHOD
 EditAction 1444900845399 BowlingGame.java 745 6 6 0
+EditAction 1444900845490 TestBowlingScoreCalculator.java 2275 4 47 3
