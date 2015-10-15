@@ -36,7 +36,7 @@ public class BowlingGame {
 							TotalScore += frames.get(i+1).GetFirstThrow();
 							temp = x;
 						}
-						if(temp > 0 && frames.get(temp+1).isStrike() != true && frames.get(temp).isStrike() == true)
+						if(temp > 0 && frames.get(temp).isStrike() != true && frames.get(temp-1).isStrike() == true)
 						{
 							TotalScore += frames.get(temp).GetFirstThrow();
 						}
