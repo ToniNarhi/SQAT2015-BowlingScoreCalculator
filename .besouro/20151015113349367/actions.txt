@@ -2,3 +2,15 @@ FileOpenedAction 1444898029668 TestBowlingScoreCalculator.java 223 1 1 0
 FileOpenedAction 1444898205666 Frame.java 794 6 7 0
 FileOpenedAction 1444898214363 BowlingGame.java 584 5 2 0
 EditAction 1444898492018 TestBowlingScoreCalculator.java 227 1 1 0
+UnitTestCaseAction 1444898492439 TestBowlingScoreCalculator.java FAIL
+UnitTestSessionAction 1444898492442 TestBowlingScoreCalculator FAIL
+RefactoringAction 1444898684057 TestBowlingScoreCalculator.java ADD import org.unioulu.tol.sqat.bsc.Frame IMPORT
+RefactoringAction 1444899354089 TestBowlingScoreCalculator.java ADD void test()/2 METHOD
+RefactoringAction 1444899362632 TestBowlingScoreCalculator.java RENAME test()/2=>void testFrame() METHOD
+RefactoringAction 1444899363648 TestBowlingScoreCalculator.java RENAME testFrame()=>void testFrameSco() METHOD
+RefactoringAction 1444899364662 TestBowlingScoreCalculator.java RENAME testFrameSco()=>void testFrameScore() METHOD
+RefactoringAction 1444899365677 TestBowlingScoreCalculator.java RENAME testFrameScore()=>void testFrameScoreis() METHOD
+RefactoringAction 1444899366692 TestBowlingScoreCalculator.java RENAME testFrameScoreis()=>void testFrameScoreisa() METHOD
+RefactoringAction 1444899372206 TestBowlingScoreCalculator.java RENAME testFrameScoreisa()=>void testFrameScoreisAddedCorrectly() METHOD
+RefactoringAction 1444899375721 TestBowlingScoreCalculator.java RENAME testFrameScoreisAddedCorrectly()=>void testFrameScoreIsAddedCorrectly() METHOD
+EditAction 1444899615266 Frame.java 841 6 8 0
