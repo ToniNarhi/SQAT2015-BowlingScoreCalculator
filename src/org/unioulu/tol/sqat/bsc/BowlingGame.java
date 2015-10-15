@@ -11,7 +11,7 @@ public class BowlingGame {
 	public BowlingGame(){}
 	
 	public void addFrame(Frame frame){
-		//to be implemented
+	frames.add(frame);
 	}
 	
 	public void setBonus(int firstThrow, int secondThrow) {
@@ -26,5 +26,10 @@ public class BowlingGame {
 	public boolean isNextFrameBonus(){
 		//to be implemented
 		return false;
+	}
+	
+	public List<Frame> Getframes()
+	{
+		return frames;
 	}
 }

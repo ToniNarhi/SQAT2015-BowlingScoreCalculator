@@ -15,3 +15,18 @@ RefactoringAction 1444899372206 TestBowlingScoreCalculator.java RENAME testFrame
 RefactoringAction 1444899375721 TestBowlingScoreCalculator.java RENAME testFrameScoreisAddedCorrectly()=>void testFrameScoreIsAddedCorrectly() METHOD
 EditAction 1444899615266 Frame.java 841 6 8 0
 EditAction 1444899615345 TestBowlingScoreCalculator.java 497 2 3 1
+UnitTestCaseAction 1444899615679 TestBowlingScoreCalculator.java OK
+UnitTestSessionAction 1444899615679 TestBowlingScoreCalculator OK
+RefactoringAction 1444899762382 TestBowlingScoreCalculator.java ADD void testFrameScoreIsAddedCorrectly()/2 METHOD
+RefactoringAction 1444899767399 TestBowlingScoreCalculator.java RENAME testFrameScoreIsAddedCorrectly()/2=>void testFrame() METHOD
+RefactoringAction 1444899773119 TestBowlingScoreCalculator.java RENAME testFrame()=>void test()/2 METHOD
+RefactoringAction 1444899774135 TestBowlingScoreCalculator.java RENAME test()/2=>void testI() METHOD
+RefactoringAction 1444899775652 TestBowlingScoreCalculator.java RENAME testI()=>void testIf() METHOD
+RefactoringAction 1444899779169 TestBowlingScoreCalculator.java RENAME testIf()=>void testIfGame() METHOD
+RefactoringAction 1444899780686 TestBowlingScoreCalculator.java RENAME testIfGame()=>void testIfGameHas() METHOD
+RefactoringAction 1444899782702 TestBowlingScoreCalculator.java RENAME testIfGameHas()=>void testIfGameHas10Frames() METHOD
+RefactoringAction 1444899889469 TestBowlingScoreCalculator.java ADD import org.unioulu.tol.sqat.bsc.BowlingGame IMPORT
+RefactoringAction 1444900343694 BowlingGame.java ADD Frame Get FIELD
+RefactoringAction 1444900346711 BowlingGame.java RENAME Get=>Frame Getframes FIELD
+RefactoringAction 1444900352727 BowlingGame.java RENAME Getframes=>Frame Getframes() METHOD
+EditAction 1444900433706 BowlingGame.java 644 6 4 0
