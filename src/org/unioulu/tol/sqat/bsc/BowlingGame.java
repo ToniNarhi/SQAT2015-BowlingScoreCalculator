@@ -60,8 +60,8 @@ public class BowlingGame {
 				{
 					Frame framebonus = new Frame (7,0);
 					addFrame(framebonus);
-					TotalScore += frames.get(i+1).GetFirstThrow()
-					break;
+					TotalScore += frames.get(i+1).GetFirstThrow();
+					i = frames.size();
 				}
 			}
 		}
