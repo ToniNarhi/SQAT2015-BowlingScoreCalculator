@@ -65,3 +65,5 @@
 1444903548867 test-first 3 1274 true
 1444903548868 test-first 3 1274 true
 1444903548869 test-first 3 1274 true
+1444903622712 test-addition 1 45 true
+1444903622713 test-addition 1 45 true

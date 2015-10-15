@@ -56,6 +56,13 @@ public class BowlingGame {
 				{
 					TotalScore += frames.get(i+1).GetFirstThrow();
 				}
+				else
+				{
+					Frame framebonus = new Frame (7,0);
+					addFrame(framebonus);
+					TotalScore += frames.get(i+1).GetFirstThrow()
+					break;
+				}
 			}
 		}
 		return TotalScore;
