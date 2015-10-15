@@ -189,3 +189,8 @@ RefactoringAction 1444905044000 TestBowlingScoreCalculator.java RENAME testIfFra
 RefactoringAction 1444905048035 TestBowlingScoreCalculator.java RENAME testIfLastFrameIsSpareScoreisCalculatedCorrectly()/2=>void testIfLastFrameIsStrikeScoreisCalculatedCorrectly() METHOD
 EditAction 1444905138961 BowlingGame.java 2003 6 3 0
 EditAction 1444905139039 TestBowlingScoreCalculator.java 8948 11 202 10
+CompilationAction 1444905139155 BowlingGame.java
+CompilationAction 1444905158286 BowlingGame.java
+UnitTestCaseAction 1444905158527 TestBowlingScoreCalculator.java FAIL
+UnitTestSessionAction 1444905158527 TestBowlingScoreCalculator FAIL
+EditAction 1444905249694 BowlingGame.java 1980 6 6 0

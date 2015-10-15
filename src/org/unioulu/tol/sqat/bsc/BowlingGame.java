@@ -52,12 +52,12 @@ public class BowlingGame {
 			}
 			if(frames.get(i).isStrike() == true)
 			{
-				if(i+1 >= 10))
+				if(i+1 >= 10)
 				{
 				//Frame framebonus = new Frame (7,2);
 				//addFrame(framebonus);
 				TotalScore += frames.get(i+1).score();
-				i = frames.size();
+				i = 11;
 				}
 			}
 			else if(frames.get(i).isSpare() == true)
@@ -71,7 +71,7 @@ public class BowlingGame {
 					//Frame framebonus = new Frame (7,0);
 					//addFrame(framebonus);
 					TotalScore += frames.get(i+1).GetFirstThrow();
-					i = frames.size();
+					i = 11;
 				}
 			}
 		}
