@@ -149,3 +149,4 @@ UnitTestSessionAction 1444904318146 TestBowlingScoreCalculator OK
 RefactoringAction 1444904338654 TestBowlingScoreCalculator.java ADD void testIfLastFrameIsSpareScoreisCalculatedCorrectly()/2 METHOD
 RefactoringAction 1444904345689 TestBowlingScoreCalculator.java RENAME testIfLastFrameIsSpareScoreisCalculatedCorrectly()/2=>void testIfStrikeFrameIsSpareScoreisCalculatedCorrectly() METHOD
 EditAction 1444904516580 BowlingGame.java 2016 6 6 0
+EditAction 1444904516660 TestBowlingScoreCalculator.java 7969 10 179 9
