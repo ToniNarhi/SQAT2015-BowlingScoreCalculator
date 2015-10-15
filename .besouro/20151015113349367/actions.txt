@@ -72,3 +72,6 @@ RefactoringAction 1444902274005 TestBowlingScoreCalculator.java ADD void testIfS
 RefactoringAction 1444902283037 TestBowlingScoreCalculator.java RENAME testIfSpareScoreisCalculatedCorrectly()/2=>void testIfTwoStrikersInbScoreisCalculatedCorrectly() METHOD
 RefactoringAction 1444902285568 TestBowlingScoreCalculator.java RENAME testIfTwoStrikersInbScoreisCalculatedCorrectly()=>void testIfTwoStrikersInARowScoreisCalculatedCorrectly() METHOD
 EditAction 1444902310340 TestBowlingScoreCalculator.java 5118 7 113 6
+UnitTestCaseAction 1444902310644 TestBowlingScoreCalculator.java FAIL
+UnitTestSessionAction 1444902310644 TestBowlingScoreCalculator FAIL
+EditAction 1444902780828 BowlingGame.java 1298 6 6 0
