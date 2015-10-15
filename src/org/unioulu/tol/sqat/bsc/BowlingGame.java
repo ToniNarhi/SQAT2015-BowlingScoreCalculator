@@ -45,7 +45,7 @@ public class BowlingGame {
 					}
 					else
 					{
-						//TotalScore += frames.get(i+1).score();
+						TotalScore += frames.get(i+1).score();
 					}
 
 				}
