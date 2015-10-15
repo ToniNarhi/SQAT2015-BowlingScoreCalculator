@@ -14,3 +14,4 @@ RefactoringAction 1444899366692 TestBowlingScoreCalculator.java RENAME testFrame
 RefactoringAction 1444899372206 TestBowlingScoreCalculator.java RENAME testFrameScoreisa()=>void testFrameScoreisAddedCorrectly() METHOD
 RefactoringAction 1444899375721 TestBowlingScoreCalculator.java RENAME testFrameScoreisAddedCorrectly()=>void testFrameScoreIsAddedCorrectly() METHOD
 EditAction 1444899615266 Frame.java 841 6 8 0
+EditAction 1444899615345 TestBowlingScoreCalculator.java 497 2 3 1
