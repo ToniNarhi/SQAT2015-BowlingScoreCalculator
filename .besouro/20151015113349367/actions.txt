@@ -63,3 +63,6 @@ RefactoringAction 1444902014918 TestBowlingScoreCalculator.java RENAME testIfStr
 EditAction 1444902077140 Frame.java 1091 7 12 0
 EditAction 1444902077225 BowlingGame.java 1040 6 6 0
 EditAction 1444902077301 TestBowlingScoreCalculator.java 4154 6 91 5
+UnitTestCaseAction 1444902077644 TestBowlingScoreCalculator.java OK
+UnitTestSessionAction 1444902077645 TestBowlingScoreCalculator OK
+EditAction 1444902192660 TestBowlingScoreCalculator.java 4159 6 91 5
