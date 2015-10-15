@@ -66,3 +66,9 @@ EditAction 1444902077301 TestBowlingScoreCalculator.java 4154 6 91 5
 UnitTestCaseAction 1444902077644 TestBowlingScoreCalculator.java OK
 UnitTestSessionAction 1444902077645 TestBowlingScoreCalculator OK
 EditAction 1444902192660 TestBowlingScoreCalculator.java 4159 6 91 5
+UnitTestCaseAction 1444902193011 TestBowlingScoreCalculator.java OK
+UnitTestSessionAction 1444902193011 TestBowlingScoreCalculator OK
+RefactoringAction 1444902274005 TestBowlingScoreCalculator.java ADD void testIfSpareScoreisCalculatedCorrectly()/2 METHOD
+RefactoringAction 1444902283037 TestBowlingScoreCalculator.java RENAME testIfSpareScoreisCalculatedCorrectly()/2=>void testIfTwoStrikersInbScoreisCalculatedCorrectly() METHOD
+RefactoringAction 1444902285568 TestBowlingScoreCalculator.java RENAME testIfTwoStrikersInbScoreisCalculatedCorrectly()=>void testIfTwoStrikersInARowScoreisCalculatedCorrectly() METHOD
+EditAction 1444902310340 TestBowlingScoreCalculator.java 5118 7 113 6
