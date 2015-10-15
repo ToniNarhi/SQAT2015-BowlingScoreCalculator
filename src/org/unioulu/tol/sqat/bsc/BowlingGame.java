@@ -52,7 +52,7 @@ public class BowlingGame {
 			}
 			else if(frames.get(i).isSpare() == true)
 			{
-				if(i+1 <= frames.size())
+				if(i+1 < frames.size())
 				{
 					TotalScore += frames.get(i+1).GetFirstThrow();
 				}
